@@ -1,4 +1,5 @@
 [workspace]
+resolver = "2"
 members = [
     "programs/*",
     "cli/",
@@ -24,9 +25,9 @@ codegen-units = 1
 wormhole-core-bridge-solana = {git = "https://github.com/wormhole-foundation/wormhole", rev = "7bd40b595e22c5512dfaa2ed8e6d7441df743a69"}
 wormhole-vaas-serde =  "0.1.0"
 serde_wormhole = "0.1.0"
-anchor-lang = "0.28.0"
-anchor-client = "0.28.0"
-solana-program = "1.16.20"
-solana-program-test = "1.16.20"
-solana-sdk = "1.16.20"
-solana-client = "1.16.20"
+anchor-lang = { git = "https://github.com/acheroncrypto/anchor", branch = "v0.31.0" }
+anchor-client = { git = "https://github.com/acheroncrypto/anchor", branch = "v0.31.0" }
+solana-program = "2"
+solana-program-test = "2"
+solana-sdk = "2"
+solana-client = "2"
